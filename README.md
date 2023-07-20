@@ -52,6 +52,20 @@ Set up the required WebDriver executables and update their paths in the test scr
 Open the project in your preferred IDE (e.g., IntelliJ, Eclipse).
 Run the tests using Maven or your IDE's test runner.
 
+## For testing "upload any file"
+1. Go to ```src/main/java/utils/Constants.java```.
+2. Use ```String url="http://the-internet.herokuapp.com/upload"``` , and comment other url.
+3. Go to ```src/test/java/qa.test/TestCase1.java```
+4.  In```testUploadAnyFile()``` method change enabled ```false``` to ```true``` like  ```@Test(priority = 2,enabled = true)```.
+5. and run the project
+
+## For testing "Validate Broken Image"
+1. Go to ```src/main/java/utils/Constants.java```.
+2. Use ```String url="https://the-internet.herokuapp.com/broken_images"``` , and comment other url.
+3. Go to ```src/test/java/qa.test/TestCase1.java```
+4.  In ```validateBrokenImages()``` method change enabled ```false``` to ```true``` like  ```@Test(priority = 1,enabled = true)```.
+5. and run the project
+6. 
 ## Running Test with Maven
 mvn test
 
