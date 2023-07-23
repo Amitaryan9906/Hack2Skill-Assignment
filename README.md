@@ -96,3 +96,6 @@ mvn test
 [MIT](https://choosealicense.com/licenses/mit/)
 
 This project is licensed under the MIT License.
+
+# Hack2Skill web app manual testing project link-
+https://docs.google.com/spreadsheets/d/1QVGgImwSpuB1vfmYQglZ66p8NwNN5Dl8bnQfaTwRLBs/edit?usp=sharing
